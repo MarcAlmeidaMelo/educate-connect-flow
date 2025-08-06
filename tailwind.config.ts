@@ -52,6 +52,15 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Educational theme colors
+				education: {
+					primary: 'hsl(var(--education-primary))',
+					secondary: 'hsl(var(--education-secondary))',
+					accent: 'hsl(var(--education-accent))',
+					success: 'hsl(var(--education-success))',
+					warning: 'hsl(var(--education-warning))',
+					info: 'hsl(var(--education-info))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',

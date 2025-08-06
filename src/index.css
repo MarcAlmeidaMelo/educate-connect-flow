@@ -9,32 +9,50 @@ All colors MUST be HSL.
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 210 20% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 210 20% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 210 20% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 214 95% 93%;
+    --primary-foreground: 213 100% 9%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 213 100% 9%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 210 40% 98%;
+    --muted-foreground: 215 16% 47%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 214 32% 91%;
+    --accent-foreground: 213 100% 9%;
 
-    --destructive: 0 84.2% 60.2%;
+    --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 214 95% 93%;
+
+    /* Educational theme colors */
+    --education-primary: 213 100% 45%;
+    --education-secondary: 152 70% 50%;
+    --education-accent: 45 100% 60%;
+    --education-success: 142 76% 36%;
+    --education-warning: 32 95% 44%;
+    --education-info: 199 89% 48%;
+
+    /* Gradient backgrounds */
+    --gradient-primary: linear-gradient(135deg, hsl(213 100% 45%) 0%, hsl(199 89% 48%) 100%);
+    --gradient-secondary: linear-gradient(135deg, hsl(152 70% 50%) 0%, hsl(142 76% 36%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(213 100% 45%) 0%, hsl(199 89% 48%) 50%, hsl(152 70% 50%) 100%);
+
+    /* Shadows */
+    --shadow-soft: 0 2px 8px hsl(213 100% 45% / 0.08);
+    --shadow-medium: 0 4px 16px hsl(213 100% 45% / 0.12);
+    --shadow-strong: 0 8px 32px hsl(213 100% 45% / 0.16);
 
     --radius: 0.5rem;
 
